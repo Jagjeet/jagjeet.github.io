@@ -71,10 +71,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  comicbook-theme (~> 0.1.0)
+  comicbook-theme
   jekyll (~> 3.8.5)
   jekyll-feed (~> 0.6)
   jekyll-remote-theme
+  jekyll-seo-tag
   minima (~> 2.0)
   tzinfo-data
 

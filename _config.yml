@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: The Portfolio of Jagjeet Khalsa
+title: The Design Adventures of Jagjeet
 email: jagjeet.khalsa@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Links to sites and code samples that I have worked on.
@@ -29,6 +29,9 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+
+collections:
+  comics:
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
