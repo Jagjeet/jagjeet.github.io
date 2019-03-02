@@ -1,12 +1,16 @@
 ---
-title: The Cascading of Those There Style Sheets Was Beautiful
+title: The Cascading of the Style Sheets Was Beautiful
 panels:
  - caption: Mr. Grim keeps watch...
    image: /assets/images/comics/css/MrGrim.jpg
    description: A simple character done on CodePen
    link: https://codepen.io/jagjeetkhalsa/full/xjJjo
- - caption: on the spinning pizza.
+ - caption: on the spinning pizza...
    image: /assets/images/comics/css/SpinningPizza.jpg
    description: Spinning rings of pizza done on CodePen
    link: https://codepen.io/jagjeetkhalsa/full/yjjKKj
+ - caption: ...while he cooks his breakfast.
+   image: /assets/images/comics/css/MrAwkwardEggFace.jpg
+   description: A simple animated egg face done on CodePen
+   link: https://codepen.io/jagjeetkhalsa/full/xjJjo
 ---
