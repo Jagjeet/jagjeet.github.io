@@ -1,7 +1,7 @@
 ---
 title: Keeping the Web Weird
 panels:
- - caption: I document this weird world we live in...
+ - caption: I document the weird world we live in...
    image: /assets/images/comics/websites/TastyFaces.jpg
    description: A site dedicated to documenting food faces.
    link: https://tastyfaces.com/
