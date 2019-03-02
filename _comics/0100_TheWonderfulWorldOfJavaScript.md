@@ -2,7 +2,7 @@
 title: The Wonderful World Of JavaScript
 panels:
  - caption: The trees are strange here...
-   image: /assets/images/comics/js/AnimatedPythagorasTree.jpg
+   image: assets/images/comics/js/AnimatedPythagorasTree.jpg
    description: A Pythagoras Tree animation done on CodePen
    link: https://codepen.io/jagjeetkhalsa/full/pVbJWO
  - caption: It sometimes rains cats...
