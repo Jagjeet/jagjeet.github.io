@@ -4,7 +4,7 @@ panels:
  - caption: Mr. Grim keeps watch...
    image: /assets/images/comics/css/MrGrim.jpg
    description: A simple character done on CodePen
-   link: https://codepen.io/jagjeetkhalsa/full/xjJjo
+   link: https://codepen.io/jagjeetkhalsa/full/xjJjow
  - caption: on the spinning pizza...
    image: /assets/images/comics/css/SpinningPizza.jpg
    description: A spinning ring of pizza animation done on CodePen
@@ -12,5 +12,5 @@ panels:
  - caption: ...while he cooks his breakfast.
    image: /assets/images/comics/css/MrAwkwardEggFace.jpg
    description: A simple animated egg face done on CodePen
-   link: https://codepen.io/jagjeetkhalsa/full/xjJjo
+   link: https://codepen.io/jagjeetkhalsa/full/GzVpxQ
 ---
