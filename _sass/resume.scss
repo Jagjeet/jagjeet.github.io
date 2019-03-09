@@ -1,0 +1,108 @@
+
+:root {
+  --job-experience-grid-template-columns: 1fr;
+  --dates-justify-self: start;
+  --font-size: 1.1rem;
+  --resume-h1-font-size: 2.7rem;
+  --resume-h2-font-size: 2.4rem;
+  --resume-h3-font-size: 2.1rem;
+  --resume-h4-font-size: 1.8rem;
+  --resume-h5-font-size: 1.5rem;
+  --resume-h6-font-size: 1.2rem;
+
+  @media screen and (min-width: 25em) {
+    // --resume-font-size: 1.5rem;
+    // --resume-h1-font-size: 5rem;
+    // --resume-h2-font-size: 4.4rem;
+    // --resume-h3-font-size: 3.8rem;
+    // --resume-h4-font-size: 3.2rem;
+    // --resume-h5-font-size: 2.6rem;
+    // --resume-h6-font-size: 2.1rem
+  }
+
+  @media screen and (min-width: 50em) {
+    --job-experience-grid-template-columns: repeat(2, 1fr);
+    --dates-justify-self: end;
+    // --resume-font-size: 1.9rem;
+    // --resume-h1-font-size: 5rem;
+    // --resume-h2-font-size: 4.4rem;
+    // --resume-h3-font-size: 3.8rem;
+    // --resume-h4-font-size: 3.2rem;
+    // --resume-h5-font-size: 2.6rem;
+    // --resume-h6-font-size: 2.1rem;
+  }
+
+  @media screen and (min-width: 70em) {
+    // --font-size: 1.5rem;
+    // --resume-h1-font-size: 6.5rem;
+    // --resume-h2-font-size: 5.7rem;
+    // --resume-h3-font-size: 4.9rem;
+    // --resume-h4-font-size: 4.1rem;
+    // --resume-h5-font-size: 3.3rem;
+    // --resume-h6-font-size: 2.5rem;
+  }
+
+  @media screen and (min-width: 107em) {
+    --flex-basis: auto;
+    --resume-font-size: 1.0rem;
+    --resume-h1-font-size: 5rem;
+    --resume-h2-font-size: 4.2rem;
+    --resume-h3-font-size: 3.4rem;
+    --resume-h4-font-size: 2.6rem;
+    --resume-h5-font-size: 1.8rem;
+    --resume-h6-font-size: 1.2rem;
+  }
+}
+
+.resume h1 {
+  font-size: var(--resume-h1-font-size);
+}
+.resume h2 {
+  font-size: var(--resume-h2-font-size);
+}
+.resume h3 {
+  font-size: var(--resume-h3-font-size);
+}
+.resume h4 {
+  font-size: var(--resume-h4-font-size);
+}
+.resume h5 {
+  font-size: var(--resume-h5-font-size);
+}
+.resume h6 {
+  font-size: var(--resume-h6-font-size);
+}
+
+.resume section {
+}
+.resume section h2 {
+  font-family: "Bangers", cursive;
+  margin-bottom: 1.0rem;
+  margin-top: 0.5rem;
+}
+
+.resume article header h1,
+.resume article header h2,
+.resume article header h3,
+.resume article header h4,
+.resume article header h5,
+.resume article header h6 {
+  margin-bottom: 1.0rem;
+  margin-top: 0.5rem;
+}
+
+.job-experience header {
+  display: grid;
+  grid-template-columns: var(--job-experience-grid-template-columns);
+  grid-auto-flow: row;
+  font-family: "Bangers", cursive;
+}
+
+.dates {
+  justify-self: var(--dates-justify-self);
+}
+
+.job-title {
+  grid-column: 1 / -1;
+  font-style: italic;
+}

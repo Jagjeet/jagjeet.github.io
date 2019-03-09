@@ -1,0 +1,164 @@
+pdfLink: /assets/files/JagjeetKhalsaResume.pdf
+fullName: Jagjeet Khalsa
+streetAddress:
+city: Vacaville
+state: CA
+zipCode: 95688
+email: jagjeet.khalsa@gmail.com
+mobile: +1.858.442.7418
+aboutMe: Independent writer, artist, designer, and engineer looking for unique and interesting opportunities in technology.
+summaryOfSkills:
+    - skill: 2 years managing small businesses
+    - skill: 5 years experience in Quality Assurance
+    - skill: 2 years technically leading Quality Assurance teams
+    - skill: 1 year developing automated tests
+    - skill: 5 years designing and developing software
+languagesAndTechnologies:
+  - Angular
+  - Bash
+  - Bootstrap
+  - C/C++
+  - C#
+  - CSS
+  - HTML5
+  - Java
+  - JavaScript
+  - JSON
+  - Less
+  - Objective-C
+  - Perl
+  - PHP
+  - React
+  - Ruby
+  - SCSS
+  - Timber/Twig
+softwareAndPlatforms:
+ - Atom
+ - Bugzilla
+ - Chai
+ - Cypress
+ - Eclipse
+ - Fiddler
+ - Git
+ - Gulp
+ - Jasmine
+ - Jest
+ - MS Visual Studio
+ - Mocha
+ - Node.js
+ - Npm
+ - RallyDev
+ - Selenium
+ - SoapUI
+ - SourceTree
+ - Sublime
+ - SVN
+ - Testopia
+ - TestRail
+ - Vi/Vim
+ - VS Code
+ - Webpack
+ - Wireshark
+ - WordPress
+ - XCode
+ - Yarn
+patentsPending:
+    - title: Method and system for providing a permissive auxiliary information user interface
+      link:
+    - title: Method and system for evolving an avatar
+      link:
+    - title: Method and system for recommending media to a user
+      link:
+    - title: Parental control method and apparatus for media service system
+      link:
+    - title: Game with incentivized behavior for media engagement
+      link:
+    - title: User interface displaying scene dependent attributes
+      link:
+jobs:
+  - company: Roar Feminist
+    location: Remote
+    dateStarted: January 2017
+    dateEnded: April 2018
+    jobTitle: Managing Editor
+    jobDescription: Co-launched online feminist magazine including fifteen sections in short span of three weeks. Worked with small team of editors to develop and expand content including 'Unsung Heroes' series recognizing overlooked members of communities. Authored satire pieces for the site. Responsible for production editing, final copy editing, and web development (WordPress, PHP, Twig, JavaScript, CSS).
+  - company: Flipped Technologies
+    location: Remote
+    dateStarted: September 2012
+    dateEnded: November 2017
+    jobTitle: Founder
+    jobDescription: Designed and developed autoprediction engine (JavaScript) improving text input for dyslexic users. Applying the technology to Android/iOS virtual keyboards and investigating porting the library to other languages. Responsible for sales, marketing and distribution.
+  - company:  Sayulita Suites
+    location: Sayulita, Nayarit
+    dateStarted: April 2016
+    dateEnded: November 2016
+    jobTitle: Property Manager
+    jobDescription: Managed suite of 5 vacation rentals. Responsible for guest relations, bookings, accounting, payroll, housekeeping, maintenance and inventory. Worked with guests and employees in English and Spanish (conversational).
+  - company: Paraiso Yoga
+    location: Sayulita, Nayarit
+    dateStarted: November 2015
+    dateEnded: March 2016
+    jobTitle: Manager
+    jobDescription: Managed yoga center including studio, massage space, bungalows, and small store. Led staff of eight part-time employees and three volunteers. Oversaw day-to-day operations including scheduling, booking, sales, accounting, payroll, inventory, housekeeping and website development. Worked with guests and employees in English and Spanish (conversational).
+  - company: ServiceNow
+    location: San Diego, CA
+    dateStarted: June 2014
+    dateEnded: September 2015
+    jobTitle: Senior Software Engineer - Quality Assurance
+    jobDescription: Worked on Founder/Chief Product Officer Fred Luddy's team developing next generation user interface for the ServiceNow platform. Led quality team developing new tests and managing existing tests for product releases. Contributed new feature ideas and worked with the team to incorporate them into the platform.
+  - company: Verimatrix
+    location: San Diego, CA
+    dateStarted: May 2013
+    dateEnded: May 2014
+    jobTitle: Quality Assurance Developer
+    jobDescription: |
+      Developed automated testing and test tools (Ruby, Java, Android) for video content security platform. Investigated feasibility of automating new or existing test cases. Contributed to scheduling of new automated test features.
+      * Simplified UX and added configuration file support for existing Android test application (Java, XML)
+      * Automated video player testing (Ruby, JavaScript, Selenium) across Windows and Mac platforms and across browsers resulting in savings of over 10 days of manual test time
+      * Automated existing manual SNMP test suite enabling remote server test management including managing remote processes and editing configuration files (Ruby, libsmi tools)
+      * Developed code generation tool (Ruby) for importing test cases from test case management system (QaTraq)
+  - company: RapDevPro
+    location: San Diego, CA
+    dateStarted: October 2012
+    dateEnded: December 2013
+    jobTitle: Software Consultant
+    jobDescription: Managed customer releases for iPhone and Android applications (XCode, Eclipse) including submitting applications to the Apple app store.  Contributed software updates to existing applications (Objective-C, Java, HTML, JavaScript, CSS).  Provided technical recommendations and support to existing customers.
+  - company: M-GO/Technicolor
+    location: San Diego, CA
+    dateStarted: January 2012
+    dateEnded: March 2013
+    jobTitle: Senior Engineer, Quality Assurance
+    jobDescription: |
+      Led front end black and white box testing for MGO video streaming application (now FandangoNow) across consumer electronic devices including TVs, tablets, mobile phones.
+      * Established common test guidelines for device platforms while maintaining individualized test plans (RallyDev, Test Rail)
+      * Evaluated new test tools and established best practices for existing tools
+      * Collaborated with Product and Development teams to fine tune product requirements including submitting over 20 new product features
+      * Contributed 10 inventions to the Patent lawyers focused on improving user experience
+      * Mentored new and existing engineers in best practices and interviewed new engineering candidates
+  - company: Chumby Industries Inc
+    location: San Diego, CA
+    dateStarted: February 2010
+    dateEnded: December 2011
+    jobTitle: Lead Technical Engineer, Quality Assurance
+    jobDescription: |
+      Led quality team for web-based application platform targeting consumer electronic devices (TVs, tablets, mobile phones, etc.). Integrated new processes and tools to increase productivity. Advised product and development teams providing fresh ideas to improve overall user experience.
+      * Oversaw quality and release of  over 1500 applications (Flash/ActionScript). Developed tools to improve release process including versioning (Perl, SQL, shell scripting)
+      * Contributed to server side web portal testing for device and application management including high level design of automation test tool (Perl)
+      * Managed test engineers establishing requirements and deliverables
+      * Developed and executed test plans including black and white box testing
+      * Mentored new/existing engineers in best practices
+  - company: The Rankin-Group
+    location: Remote
+    dateStarted: September 2008
+    dateEnded: May 2010
+    jobTitle: Independent Software Consultant
+    jobDescription: Provided technical support for US based customers for KUKA VxWin and CeWin products that enabled Windows and VxWorks or Windows CE to run concurrently. Responsible for web design (CSS, PHP) and web based marketing.
+education:
+  - school: University of California Davis
+    location: Davis, CA
+    dateStarted: September 1997
+    dateEnded: December 2000
+    degree:
+      - Bachelor of Science, Computer Science & Engineering
+      - Minor, Philosophy
+interests: Currently participating in more open source projects, submitting a kids book I wrote and illustrated for publication, and working on a yoga themed card game. Activities include traveling, rock climbing, yoga, and gardening.

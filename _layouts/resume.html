@@ -1,0 +1,98 @@
+---
+layout: page
+---
+<article class="resume">
+  <section>
+    A pdf version can be found <a href={{site.data.resume.pdfLink}}>here</a>.
+  </section>
+  <section>
+    <header>
+      <h2>Contact</h2>
+    </header>
+    <div>{{site.data.resume.fullName}}</div>
+    <div>{{site.data.resume.city}}, {{site.data.resume.state}}</div>
+    <div>{{site.data.resume.email}}</div>
+    <div>{{site.data.resume.mobile}}</div>
+  </section>
+  <section>
+    <header>
+      <h2>About Me</h2>
+    </header>
+    <div>{{site.data.resume.aboutMe}}</div>
+  </section>
+  <section>
+    <header>
+      <h2>Summary of Skills</h2>
+    </header>
+    <ul>
+      {% for skill in site.data.resume.summaryOfSkills %}
+      <li>{{skill.skill}} </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section>
+    <header>
+      <h2>Languages & Technologies</h2>
+    </header>
+    {% for item in site.data.resume.languagesAndTechnologies %}
+    <span>{{item}}, </span>
+    {% endfor %}
+  </section>
+  <section>
+    <header>
+      <h2>Software & Platforms</h2>
+    </header>
+    {% for item in site.data.resume.softwareAndPlatforms %}
+    <span>{{item}}, </span>
+    {% endfor %}
+  </section>
+  <section>
+    <header>
+      <h2>Patents Pending</h2>
+    </header>
+    <ul>
+      {% for item in site.data.resume.patentsPending %}
+      <li><a href={{item.link}}>{{item.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section>
+    <header>
+      <h2>Professional Experience:</h2>
+    </header>
+    {% for item in site.data.resume.jobs %}
+    <article class="job-experience">
+      <header>
+        <h4 class="company">{{item.company}} ({{item.location}})</h4>
+        <h4 class="dates">{{item.dateEnded}} - {{item.dateStarted}}</h4>
+        <h5 class="job-title">{{item.jobTitle}}</h5>
+      </header>
+      <div class='job-description'>{{item.jobDescription | markdownify }}</div>
+    </article>
+    {% endfor %}
+  </section>
+  <section>
+    <header>
+      <h2>Education:</h2>
+    </header>
+    <article>
+      {% for item in site.data.resume.education %}
+        <div>{{item.school}}</div>
+        <div>{{item.location}}</div>
+        <div>{{item.dateStarted}}</div>
+        <div>{{item.dateEnded}}</div>
+        {% for degree in item.degree %}
+          <div>{{degree}}</div>
+        {% endfor %}
+      {% endfor %}
+    </article>
+  </section>
+  <section>
+    <header>
+      <h2>Interests:</h2>
+    </header>
+    <article>
+     {{site.data.resume.interests}}
+    </article>
+  </section>
+</article>
