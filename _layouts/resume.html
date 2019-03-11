@@ -64,7 +64,7 @@ layout: page
     <article class="job-experience">
       <header>
         <h4 class="company">{{item.company}} ({{item.location}})</h4>
-        <h4 class="dates">{{item.dateEnded}} - {{item.dateStarted}}</h4>
+        <h4 class="dates">{{item.dateStarted}} - {{item.dateEnded}}</h4>
         <h5 class="job-title">{{item.jobTitle}}</h5>
       </header>
       <div class='job-description'>{{item.jobDescription | markdownify }}</div>
@@ -75,15 +75,17 @@ layout: page
     <header>
       <h2>Education:</h2>
     </header>
-    <article>
+    <article class="education">
       {% for item in site.data.resume.education %}
-        <div>{{item.school}}</div>
-        <div>{{item.location}}</div>
-        <div>{{item.dateStarted}}</div>
-        <div>{{item.dateEnded}}</div>
-        {% for degree in item.degree %}
-          <div>{{degree}}</div>
-        {% endfor %}
+        <header>
+          <h4 class="school">{{item.school}} ({{item.location}})</h4>
+          <h4 class="education-dates">{{item.dateStarted}} - {{item.dateEnded}}</h4>
+        </header>
+        <ul>
+          {% for degree in item.degree %}
+            <li>{{degree}}</li>
+          {% endfor %}
+        </ul>
       {% endfor %}
     </article>
   </section>

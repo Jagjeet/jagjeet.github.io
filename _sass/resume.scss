@@ -1,6 +1,7 @@
 
 :root {
   --job-experience-grid-template-columns: 1fr;
+  --education-grid-template-columns: 1fr;
   --dates-justify-self: start;
   --font-size: 1.1rem;
   --resume-h1-font-size: 2.7rem;
@@ -22,6 +23,7 @@
 
   @media screen and (min-width: 50em) {
     --job-experience-grid-template-columns: repeat(2, 1fr);
+    --education-grid-template-columns: repeat(2, 1fr);
     --dates-justify-self: end;
     // --resume-font-size: 1.9rem;
     // --resume-h1-font-size: 5rem;
@@ -97,7 +99,14 @@
   grid-auto-flow: row;
   font-family: "Bangers", cursive;
 }
+.education header {
+  display: grid;
+  grid-template-columns: var(--education-grid-template-columns);
+  grid-auto-flow: row;
+  font-family: "Bangers", cursive;
+}
 
+.education-dates,
 .dates {
   justify-self: var(--dates-justify-self);
 }
