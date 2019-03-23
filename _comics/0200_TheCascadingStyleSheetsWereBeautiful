@@ -1,6 +1,10 @@
 ---
 title: The Cascading of the Style Sheets Was Beautiful
 panels:
+ - caption: The skull face dances and ...
+   image: /assets/images/comics/css/AnimatedSkullFace.jpg
+   description: A skull animation done on CodePen
+   link: https://codepen.io/jagjeetkhalsa/full/gEzpvN
  - caption: Mr. Grim keeps watch...
    image: /assets/images/comics/css/MrGrim.jpg
    description: A simple character done on CodePen
