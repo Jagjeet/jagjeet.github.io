@@ -1,5 +1,5 @@
 ---
 title: Home
-layout: comics
+layout: comics-default
 comicCategory: portfolio
 ---

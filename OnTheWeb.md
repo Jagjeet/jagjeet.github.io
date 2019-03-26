@@ -1,5 +1,5 @@
 ---
 title: on the web
-layout: comics
+layout: comics-page
 comicCategory: links
 ---
