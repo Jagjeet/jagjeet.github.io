@@ -89,7 +89,7 @@
 .resume article header h4,
 .resume article header h5,
 .resume article header h6 {
-  margin-bottom: 1.0rem;
+  margin-bottom: 0.5rem;
   margin-top: 0.5rem;
 }
 
@@ -114,4 +114,15 @@
 .job-title {
   grid-column: 1 / -1;
   font-style: italic;
+}
+
+.company a:visited,
+.school a:visited {
+  color: black;
+}
+
+.company a:link,
+.school a:link {
+  color: black;
+  text-decoration: none;
 }

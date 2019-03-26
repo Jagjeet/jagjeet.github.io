@@ -89,24 +89,28 @@ jobs:
     jobTitle: Founder
     jobDescription: Designed and developed autoprediction engine (JavaScript) improving text input for dyslexic users. Applying the technology to Android/iOS virtual keyboards and investigating porting the library to other languages. Responsible for sales, marketing and distribution.
   - company:  Sayulita Suites
+    companyLink: https://www.sayulitasuites.com/
     location: Sayulita, Nayarit
     dateStarted: April 2016
     dateEnded: November 2016
     jobTitle: Property Manager
     jobDescription: Managed suite of 5 vacation rentals. Responsible for guest relations, bookings, accounting, payroll, housekeeping, maintenance and inventory. Worked with guests and employees in English and Spanish (conversational).
   - company: Paraiso Yoga
+    companyLink: http://www.paraisoyoga.com/
     location: Sayulita, Nayarit
     dateStarted: November 2015
     dateEnded: March 2016
     jobTitle: Manager
     jobDescription: Managed yoga center including studio, massage space, bungalows, and small store. Led staff of eight part-time employees and three volunteers. Oversaw day-to-day operations including scheduling, booking, sales, accounting, payroll, inventory, housekeeping and website development. Worked with guests and employees in English and Spanish (conversational).
   - company: ServiceNow
+    companyLink: https://www.servicenow.com/
     location: San Diego, CA
     dateStarted: June 2014
     dateEnded: September 2015
     jobTitle: Senior Software Engineer - Quality Assurance
     jobDescription: Worked on Founder/Chief Product Officer Fred Luddy's team developing next generation user interface for the ServiceNow platform. Led quality team developing new tests and managing existing tests for product releases. Contributed new feature ideas and worked with the team to incorporate them into the platform.
   - company: Verimatrix
+    companyLink: https://www.verimatrix.com/
     location: San Diego, CA
     dateStarted: May 2013
     dateEnded: May 2014
@@ -118,24 +122,27 @@ jobs:
       * Automated existing manual SNMP test suite enabling remote server test management including managing remote processes and editing configuration files (Ruby, libsmi tools)
       * Developed code generation tool (Ruby) for importing test cases from test case management system (QaTraq)
   - company: RapDevPro
+    companyLink: http://www.rapdevpro.com/
     location: San Diego, CA
     dateStarted: October 2012
     dateEnded: December 2013
     jobTitle: Software Consultant
     jobDescription: Managed customer releases for iPhone and Android applications (XCode, Eclipse) including submitting applications to the Apple app store.  Contributed software updates to existing applications (Objective-C, Java, HTML, JavaScript, CSS).  Provided technical recommendations and support to existing customers.
   - company: M-GO/Technicolor
+    companyLink: https://www.technicolor.com/
     location: San Diego, CA
     dateStarted: January 2012
     dateEnded: March 2013
     jobTitle: Senior Engineer, Quality Assurance
     jobDescription: |
-      Led front end black and white box testing for MGO video streaming application (now FandangoNow) across consumer electronic devices including TVs, tablets, mobile phones.
+      Led front end black and white box testing for MGO video streaming application (now [FandangoNow](https://www.fandangonow.com)) across consumer electronic devices including TVs, tablets, mobile phones.
       * Established common test guidelines for device platforms while maintaining individualized test plans (RallyDev, Test Rail)
       * Evaluated new test tools and established best practices for existing tools
       * Collaborated with Product and Development teams to fine tune product requirements including submitting over 20 new product features
       * Contributed 10 inventions to the Patent lawyers focused on improving user experience
       * Mentored new and existing engineers in best practices and interviewed new engineering candidates
   - company: Chumby Industries Inc
+    companyLink: http://chumby.com/
     location: San Diego, CA
     dateStarted: February 2010
     dateEnded: December 2011
@@ -148,6 +155,7 @@ jobs:
       * Developed and executed test plans including black and white box testing
       * Mentored new/existing engineers in best practices
   - company: The Rankin-Group
+    companyLink: http://www.rankin-group.com/
     location: Remote
     dateStarted: September 2008
     dateEnded: May 2010
@@ -155,6 +163,7 @@ jobs:
     jobDescription: Provided technical support for US based customers for KUKA VxWin and CeWin products that enabled Windows and VxWorks or Windows CE to run concurrently. Responsible for web design (CSS, PHP) and web based marketing.
 education:
   - school: University of California Davis
+    schoolLink: https://www.ucdavis.edu/
     location: Davis, CA
     dateStarted: September 1997
     dateEnded: December 2000

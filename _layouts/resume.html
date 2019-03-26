@@ -58,12 +58,16 @@ layout: page
   </section>
   <section>
     <header>
-      <h2>Professional Experience:</h2>
+      <h2>Professional Experience</h2>
     </header>
     {% for item in site.data.resume.jobs %}
     <article class="job-experience">
       <header>
-        <h4 class="company">{{item.company}} ({{item.location}})</h4>
+        {% if item.companyLink %}
+          <h4 class="company"><a href="{{item.companyLink}}">{{item.company}} ({{item.location}})</a></h4>
+        {% else %}
+          <h4 class="company">{{item.company}} ({{item.location}})</h4>
+        {% endif %}
         <h4 class="dates">{{item.dateStarted}} - {{item.dateEnded}}</h4>
         <h5 class="job-title">{{item.jobTitle}}</h5>
       </header>
@@ -73,12 +77,16 @@ layout: page
   </section>
   <section>
     <header>
-      <h2>Education:</h2>
+      <h2>Education</h2>
     </header>
     <article class="education">
       {% for item in site.data.resume.education %}
         <header>
-          <h4 class="school">{{item.school}} ({{item.location}})</h4>
+          {% if item.schoolLink %}
+            <h4 class="school"><a href="{{item.schoolLink}}">{{item.school}} ({{item.location}})</a></h4>
+          {% else %}
+            <h4 class="school">{{item.school}} ({{item.location}})</h4>
+          {% endif %}
           <h4 class="education-dates">{{item.dateStarted}} - {{item.dateEnded}}</h4>
         </header>
         <ul>
@@ -91,7 +99,7 @@ layout: page
   </section>
   <section>
     <header>
-      <h2>Interests:</h2>
+      <h2>Interests</h2>
     </header>
     <article>
      {{site.data.resume.interests}}
