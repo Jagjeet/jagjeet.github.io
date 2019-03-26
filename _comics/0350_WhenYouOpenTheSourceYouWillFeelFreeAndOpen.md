@@ -5,4 +5,5 @@ panels:
    image: /assets/images/comics/opensource/TrustRoots.jpg
    description: One of the main open source projects that I have worked on dedicated to getting travelers together.
    link: https://www.trustroots.org/
+categories: [portfolio]
 ---

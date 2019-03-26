@@ -13,4 +13,5 @@ panels:
    image: /assets/images/comics/websites/InColorPhotos.jpg
    description: This is a demo site for improving the state of local photojournalism.
    link: https://incolor.photos/
+categories: [portfolio]
 ---

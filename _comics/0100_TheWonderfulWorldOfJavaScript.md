@@ -17,4 +17,5 @@ panels:
    image: assets/images/comics/js/FeedMeTacos.jpg
    description: A simple react drag and drop demo where you can drag tacos to the mouth
    link: https://react-dnd-mouth-eating-tacos-demo.glitch.me/
+categories: [portfolio]
 ---
