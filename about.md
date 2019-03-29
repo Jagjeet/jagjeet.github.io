@@ -7,7 +7,7 @@ title: About
 
 Hello. I am Jagjeet. Nice to meet you!
 
-This is my new portfolio or 'Under Construction' for the more nostalgic. I love writing and art and design and development and the intersection of all those things. My goal is to help make the world a fun, weird place. Hopefully, this serves as a representation of that.
+This is my new portfolio so it's 'Under Construction' for the more nostalgic. I love writing and art and design and development and the intersection of all those things. My goal is to help make the world a fun, weird place. Hopefully, this serves as a representation of that.
 
 I am interested in working with people and companies that:
 
