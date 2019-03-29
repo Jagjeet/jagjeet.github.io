@@ -161,6 +161,34 @@ jobs:
     dateEnded: May 2010
     jobTitle: Independent Software Consultant
     jobDescription: Provided technical support for US based customers for KUKA VxWin and CeWin products that enabled Windows and VxWorks or Windows CE to run concurrently. Responsible for web design (CSS, PHP) and web based marketing.
+  - company: Visuality Systems
+    companyLink:
+    location: Remote
+    dateStarted: November 2007
+    dateEnded: March 2010
+    jobTitle: USA Country Manager
+    jobDescription: Managed US office of Visuality Systems. Responsible for distribution and sales of CIFS NQ products. Provided technical and logistical support to US based customers.
+  - company: OPNET Technologies
+    companyLink:
+    location: Remote
+    dateStarted: January 2007
+    dateEnded: October 2007
+    jobTitle: Software Engineer
+    jobDescription: Acted as a liaison between OPNET and OPNET customers. Supported customers with the use of ACE and Panorama networking products. Wrote and designed customized software adapters (C++, Java). Interfaced with engineering and support teams to analyze networking issues.
+  - company: Hewlett-Packard
+    companyLink:
+    location: San Diego
+    dateStarted: April 2001
+    dateEnded: May 2005
+    jobTitle: Firmware Engineer
+    jobDescription: |
+      Responsible for design, development and verification of multi-function product (MFP) features. Maintained firmware modules enabling reusability and robustness. Investigated new product features. Defined development schedules to project teams. Helped ensure success of program.
+      *	Re-architected and implemented the software/firmware interface for fax functionality (XML, IDL, CORBA, C++).
+      *	Contributed to a network based photo sharing service (HP Instant Share) including the definition, scheduling and implementation of new feature set (C, XML, SOAP).
+      *	Investigated and prototyped Universal Plug and Play Scanning for HP AiO products. (C, UPnP, XML, SOAP)
+      *	Participated in cross company effort to develop and standardize the UPnP Scan specification. (XML, SOAP)
+      *	Contributed to User Interface (UI) development for first HP MFP with a color display, including enabling hardware and graphics libraries. (C, XML)
+      *	Managed technical interactions with CIFS vendor (Visuality Systems), including integrating vendor fixes and evaluating risk to the overall program. (CIFS) See less
 education:
   - school: University of California Davis
     schoolLink: https://www.ucdavis.edu/
