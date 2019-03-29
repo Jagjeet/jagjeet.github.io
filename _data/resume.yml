@@ -188,7 +188,7 @@ jobs:
       *	Investigated and prototyped Universal Plug and Play Scanning for HP AiO products. (C, UPnP, XML, SOAP)
       *	Participated in cross company effort to develop and standardize the UPnP Scan specification. (XML, SOAP)
       *	Contributed to User Interface (UI) development for first HP MFP with a color display, including enabling hardware and graphics libraries. (C, XML)
-      *	Managed technical interactions with CIFS vendor (Visuality Systems), including integrating vendor fixes and evaluating risk to the overall program. (CIFS) See less
+      *	Managed technical interactions with CIFS vendor (Visuality Systems), including integrating vendor fixes and evaluating risk to the overall program. (CIFS)
 education:
   - school: University of California Davis
     schoolLink: https://www.ucdavis.edu/
