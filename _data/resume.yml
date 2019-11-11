@@ -76,6 +76,13 @@ patentsPending:
     - title: User interface displaying scene dependent attributes
       link: https://patentscope.wipo.int/search/en/detail.jsf?docId=US137598679
 jobs:
+  - company: SpiraTec
+    companyLink: https://www.spiratec-ag.com/index.php/en
+    location: Vacaville/Novato/Remote
+    dateStarted: August 2019
+    dateEnded: Present
+    jobTitle: Consulting Engineer – Industrial Automation and IT Solutions
+    jobDescription: Contributed to automation solutions for reporting during drug manufacturing (PI Reports, Python) following the GAMP model. Worked with client companies to satisfy their automation needs in a highly regulated industry.
   - company: Roar Feminist
     location: Remote
     dateStarted: January 2017
