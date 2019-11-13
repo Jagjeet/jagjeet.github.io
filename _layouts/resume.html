@@ -48,13 +48,24 @@ layout: page
   </section>
   <section>
     <header>
-      <h2>Patents Pending</h2>
+      <h2>Patents</h2>
     </header>
-    <ul>
-      {% for item in site.data.resume.patentsPending %}
-      <li><a href='{{item.link}}'>{{item.title}}</a></li>
-      {% endfor %}
-    </ul>
+    <article>
+      <h4>Granted</h4>
+      <ul>
+        {% for item in site.data.resume.patentsGranted %}
+        <li><a href='{{item.link}}'>{{item.title}}</a></li>
+        {% endfor %}
+      </ul>
+    </article>
+    <article>
+      <h4>Pending</h4>
+      <ul>
+        {% for item in site.data.resume.patentsPending %}
+        <li><a href='{{item.link}}'>{{item.title}}</a></li>
+        {% endfor %}
+      </ul>
+    </article>
   </section>
   <section>
     <header>
