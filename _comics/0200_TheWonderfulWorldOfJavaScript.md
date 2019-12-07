@@ -21,5 +21,10 @@ panels:
    altImageText: Feed me tacos demo screenshot
    description: A simple react drag and drop demo where you can drag tacos to the mouth
    link: https://react-dnd-mouth-eating-tacos-demo.glitch.me/
+ - caption: And of course more cats!!!
+   image: assets/images/comics/js/MoreCats.jpg
+   altImageText: Kittens slideshow demo screenshot
+   description: A simple react based slideshow that pulls cat image data from the Cat API
+   link: https://cat-react-slideshow.glitch.me/
 categories: [portfolio]
 ---
