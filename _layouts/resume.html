@@ -32,6 +32,14 @@ layout: page
   </section>
   <section>
     <header>
+      <h2>Automation & Manufacturing Tools</h2>
+    </header>
+    {% for item in site.data.resume.automationAndManufacturingTools %}
+    <span>{{item}}, </span>
+    {% endfor %}
+  </section>
+  <section>
+    <header>
       <h2>Languages & Technologies</h2>
     </header>
     {% for item in site.data.resume.languagesAndTechnologies %}
@@ -40,9 +48,17 @@ layout: page
   </section>
   <section>
     <header>
-      <h2>Software & Platforms</h2>
+      <h2>Frameworks & Tools</h2>
     </header>
-    {% for item in site.data.resume.softwareAndPlatforms %}
+    {% for item in site.data.resume.devFrameworksAndTools %}
+    <span>{{item}}, </span>
+    {% endfor %}
+  </section>
+  <section>
+    <header>
+      <h2>Test Frameworks & Tools</h2>
+    </header>
+    {% for item in site.data.resume.testFrameworksAndTools %}
     <span>{{item}}, </span>
     {% endfor %}
   </section>

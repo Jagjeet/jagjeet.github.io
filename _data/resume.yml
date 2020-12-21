@@ -13,6 +13,10 @@ summaryOfSkills:
     - skill: 5 years experience in Quality Assurance
     - skill: 5 years designing and developing software
     - skill: 2 years managing small businesses
+automationAndManufacturingTools:
+  - Honeywell Control Builder
+  - Honeywell Experion Batch Manager
+  - OSIsoft PI (RT/Reports/System Explorer/Vision)
 languagesAndTechnologies:
   - Angular
   - Bash
@@ -20,7 +24,7 @@ languagesAndTechnologies:
   - C/C++
   - C#
   - CSS
-  - HTML5
+  - HTML
   - Java
   - JavaScript
   - JSON
@@ -32,40 +36,48 @@ languagesAndTechnologies:
   - React
   - Ruby
   - SCSS
+  - SQL
   - Timber/Twig
-softwareAndPlatforms:
- - Atom
- - Bugzilla
- - Chai
- - Cypress
- - Eclipse
- - Fiddler
- - Gatsby
- - Git
- - Gulp
- - Jasmine
- - Jekyll
- - Jest
- - Jupyter Lab/Notebook
- - MS Visual Studio
- - Mocha
- - Node.js
- - Npm
- - RallyDev
- - Selenium
- - SoapUI
- - SourceTree
- - Sublime
- - SVN
- - Testopia
- - TestRail
- - Vi/Vim
- - VS Code
- - Webpack
- - Wireshark
- - WordPress
- - XCode
- - Yarn
+  - UPnP
+  - WordPress
+devFrameworksAndTools:
+  - Android Studio
+  - Atom
+  - Eclipse
+  - Gatsby
+  - Git
+  - Gulp
+  - Jekyll
+  - Jupyter Lab/Notebook
+  - MS Visual Studio
+  - Node.js
+  - Npm
+  - RallyDev
+  - SoapUI
+  - SourceTree
+  - Sublime
+  - SVN
+  - Vi/Vim
+  - VS Code
+  - Webpack
+  - XCode
+  - Yarn
+testFrameworksAndTools:
+  - Bugzilla
+  - Chai
+  - Cypress
+  - Fiddler
+  - Git
+  - Gulp
+  - Jasmine
+  - Jest
+  - Mocha
+  - RallyDev
+  - Selenium
+  - SoapUI
+  - Testopia
+  - TestRail
+  - Wireshark
 patentsGranted:
     - title: Parental control method and apparatus for media service system
       link: https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2014143134&recNum=4&docAn=US2013052003&queryString=Jagjeet Singh Khalsa&maxRec=4
