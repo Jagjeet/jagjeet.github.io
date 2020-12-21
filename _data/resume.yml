@@ -8,11 +8,11 @@ email: jagjeet.khalsa@gmail.com
 mobile: +1.858.442.7418
 aboutMe: Independent writer, artist, designer, and engineer looking for unique and interesting opportunities in technology.
 summaryOfSkills:
-    - skill: 2 years managing small businesses
-    - skill: 5 years experience in Quality Assurance
+    - skill: 1 year implementing/testing control systems for automation and manufacturing
     - skill: 2 years technically leading Quality Assurance teams
-    - skill: 1 year developing automated tests
+    - skill: 5 years experience in Quality Assurance
     - skill: 5 years designing and developing software
+    - skill: 2 years managing small businesses
 languagesAndTechnologies:
   - Angular
   - Bash
@@ -28,6 +28,7 @@ languagesAndTechnologies:
   - Objective-C
   - Perl
   - PHP
+  - Python
   - React
   - Ruby
   - SCSS
@@ -39,10 +40,13 @@ softwareAndPlatforms:
  - Cypress
  - Eclipse
  - Fiddler
+ - Gatsby
  - Git
  - Gulp
  - Jasmine
+ - Jekyll
  - Jest
+ - Jupyter Lab/Notebook
  - MS Visual Studio
  - Mocha
  - Node.js
@@ -83,7 +87,15 @@ jobs:
     dateStarted: August 2019
     dateEnded: Present
     jobTitle: Consulting Engineer – Industrial Automation and IT Solutions
-    jobDescription: Contributed to automation of exception based reporting during drug manufacturing (PI, RtReports) following the GAMP model. Wrote tool to automate export of data for documentation (Python). Worked with client companies to satisfy their automation needs in a highly regulated industry.
+    jobDescription: |
+      Tested and implemented control and monitoring systems for pharmaceutical customers according to GMP/GAMP guidelines. Documented system testing/processes based on customer needs. Introduced project management tools to improve productivity. Project highlights include:
+        * Contributed to new Honeywell DCS using Experion platform
+          * Implemented phases, control modules and phase, map and unit blocks according to design specifications.
+          * Verified software implementation, executed pre-factory acceptance and functional tests in virtual environment.
+        * Implemented review by exception manufacturing batch reports using OSIsoft RtReports.
+          * Configured asset framework data sources and RtReport templates
+          * Developed and executed acceptance test protocols for report implementation in production environment.
+          * Wrote Python tools to automate data export for documentation reducing deviations."
   - company: Roar Feminist
     location: Remote
     dateStarted: January 2017
