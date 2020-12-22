@@ -32,35 +32,40 @@ layout: page
   </section>
   <section>
     <header>
-      <h2>Automation & Manufacturing Tools</h2>
+      <h2>Software & Tools</h2>
     </header>
-    {% for item in site.data.resume.automationAndManufacturingTools %}
-    <span>{{item}}, </span>
-    {% endfor %}
-  </section>
-  <section>
-    <header>
-      <h2>Languages & Technologies</h2>
-    </header>
-    {% for item in site.data.resume.languagesAndTechnologies %}
-    <span>{{item}}, </span>
-    {% endfor %}
-  </section>
-  <section>
-    <header>
-      <h2>Frameworks & Tools</h2>
-    </header>
-    {% for item in site.data.resume.devFrameworksAndTools %}
-    <span>{{item}}, </span>
-    {% endfor %}
-  </section>
-  <section>
-    <header>
-      <h2>Test Frameworks & Tools</h2>
-    </header>
-    {% for item in site.data.resume.testFrameworksAndTools %}
-    <span>{{item}}, </span>
-    {% endfor %}
+    <article  class="software-tools">
+      <header>
+        <h4>Automation & Manufacturing Tools</h4>
+      </header>
+      {% for item in site.data.resume.automationAndManufacturingTools %}
+      <span>{{item}}, </span>
+      {% endfor %}
+    </article>
+    <article  class="software-tools">
+      <header>
+        <h4>Languages & Technologies</h4>
+      </header>
+      {% for item in site.data.resume.languagesAndTechnologies %}
+      <span>{{item}}, </span>
+      {% endfor %}
+    </article>
+    <article  class="software-tools">
+      <header>
+        <h4>Frameworks & Tools</h4>
+      </header>
+      {% for item in site.data.resume.devFrameworksAndTools %}
+      <span>{{item}}, </span>
+      {% endfor %}
+    </article>
+    <article  class="software-tools">
+      <header>
+        <h4>Test Frameworks & Tools</h4>
+      </header>
+      {% for item in site.data.resume.testFrameworksAndTools %}
+      <span>{{item}}, </span>
+      {% endfor %}
+    </article>
   </section>
   <section>
     <header>

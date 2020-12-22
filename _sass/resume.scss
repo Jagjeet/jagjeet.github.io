@@ -24,6 +24,7 @@
   @media screen and (min-width: 50em) {
     --job-experience-grid-template-columns: repeat(2, 1fr);
     --education-grid-template-columns: repeat(2, 1fr);
+    --software-tools-grid-template-columns: repeat(2, 1fr);
     --dates-justify-self: end;
     // --resume-font-size: 1.9rem;
     // --resume-h1-font-size: 5rem;
@@ -92,6 +93,13 @@
 .resume article header h6 {
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
+}
+
+.software-tools header {
+  display: grid;
+  grid-template-columns: var(--software-tools-grid-template-columns);
+  grid-auto-flow: row;
+  font-family: "Bangers", cursive;
 }
 
 .job-experience header {
